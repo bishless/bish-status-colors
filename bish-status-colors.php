@@ -26,13 +26,13 @@
 
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
-	 die;
+    die;
 }
 
 
 /**
- * Enqueue stylesheet 
- * Apply Material colors to background (100) and left border (500) of matching rows
+ * Enqueue stylesheet that applies Material colors to background (100) and left border (500) of matching rows
+ * See: https://www.materialui.co/colors
  *
  * @param int $hook Hook suffix for the current admin page
  */
