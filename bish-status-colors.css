@@ -1,0 +1,19 @@
+/* Sticky */
+.status-sticky { background: #F0F4C3 !important;}
+.status-sticky th.check-column { border-left: 4px solid #CDDC39 !important;}
+/* Draft */
+.status-draft { background: #ffecb3 !important;}
+.status-draft th.check-column { border-left: 4px solid #ffc107 !important;}
+/* Scheduled */
+.status-future { background: #B3E5FC !important;}
+.status-future th.check-column { border-left: 4px solid #03A9F4 !important;}
+/* Pending Review */
+.status-pending { background: #dcedc8 !important;}
+.status-pending th.check-column { border-left: 4px solid #8BC34A !important;}
+/* Private */
+.status-private { background: #ffcdd2 !important;}
+.status-private th.check-column { border-left: 4px solid #f44336 !important;}
+/* Password Required */
+.post-password-required { background: #F8BBD0 !important;}
+.post-password-required th.check-column { border-left: 4px solid #E91E63 !important;}
+/* No extra styles for Published posts  */
