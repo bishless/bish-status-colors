@@ -22,6 +22,13 @@ if ( ! defined( 'WPINC' ) ) {
     die;
 }
 
+// We're going to parse the GitHub markdown release notes, include Parsedown
+require_once( plugin_dir_path( __FILE__ ) . "vendor/autoload.php" );
+
+require_once( 'class-bfi-ghpluginupdater.php' );
+if ( is_admin() ) {
+    new BFIGitHubPluginUpdater( __FILE__, 'bishless', "bish-status-colors" );
+}
 
 /**
  * Enqueue stylesheet that applies Material colors to background (100) and left border (500) of matching rows
