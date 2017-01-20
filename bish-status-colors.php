@@ -8,7 +8,7 @@
  * Plugin Name:       Bish Status Colors
  * Plugin URI:        https://bishless.com/bish-status-colors/
  * Description:       A micro plugin for WordPress that lets users quickly discern post status by the discreet decoration of post rows in wp-admin. Works on Posts and Pages.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Daniel Bishop
  * Author URI:        https://bishless.com
  * GitHub Plugin URI: bishless/bish-status-colors
@@ -33,6 +33,6 @@ function bish_sc_enqueue_styles( $hook ) {
     if ( 'edit.php' != $hook ) {
         return;
     }
-    wp_enqueue_style( 'status-colors-styles', plugins_url( 'bish-status-colors.css', __FILE__ ) );
+    wp_enqueue_style( 'status-colors-styles', plugins_url( 'css/bish-status-colors.css', __FILE__ ) );
 }
 add_action( 'admin_enqueue_scripts', 'bish_sc_enqueue_styles' );

@@ -1,0 +1,28 @@
+{
+  "name": "bish-status-colors",
+  "version": "1.0.0",
+  "description": "micro plugin for WordPress to colorize posts based on status",
+  "scripts": {
+    "scss": "node-sass --output-style compressed -o ./css ./scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bishless/bish-status-colors.git"
+  },
+  "keywords": [
+    "wordpress",
+    "posts",
+    "status",
+    "color",
+    "bish"
+  ],
+  "author": "Daniel Bishop",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/bishless/bish-status-colors/issues"
+  },
+  "homepage": "https://github.com/bishless/bish-status-colors#readme",
+  "devDependencies": {
+    "node-sass": "^4.3.0"
+  }
+}

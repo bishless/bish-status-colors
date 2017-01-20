@@ -1,0 +1,85 @@
+// Material Colors
+$lime100: #f0f4c3;
+$lime500: #cddc39;
+$amber100: #ffecb3;
+$amber500: #ffc107;
+$lightBlue100: #B3E5FC;
+$lightBlue500: #03A9F4;
+$lightGreen100: #dcedc8;
+$lightGreen500: #8BC34A;
+$red100: #ffcdd2;
+$red500: #f44336;
+$pink100: #F8BBD0;
+$pink500: #E91E63;
+
+
+.status-sticky,
+.status-draft,
+.status-future,
+.status-pending,
+.status-private,
+.post-password-required {
+
+    th.check-column {
+        border-left-width: 4px;
+        border-left-style: solid;
+
+        input {
+            margin-left: 5px; /* compensates for borders added below */
+        }
+    }
+}
+
+/* Sticky */
+.status-sticky { 
+    background-color: $lime100 !important;
+    
+    th.check-column { 
+        border-left-color: $lime500 !important;
+    }
+}
+
+/* Draft */
+.status-draft { 
+    background-color: $amber100 !important;
+
+    th.check-column { 
+        border-left-color: $amber500 !important;
+    }
+}
+
+/* Scheduled */
+.status-future {
+    background-color: $lightBlue100 !important;
+    
+    th.check-column { 
+        border-left-color: $lightBlue500 !important;
+    }
+}
+
+/* Pending Review */
+.status-pending { 
+    background-color: $lightGreen100 !important;
+    
+    th.check-column {
+        border-left-color: $lightGreen500 !important;
+    }
+}
+
+/* Private */
+.status-private {
+    background-color: $red100 !important;
+    
+    th.check-column {
+        border-left-color: $red500 !important;
+    }
+}
+
+/* Password Required */
+.post-password-required { 
+    background-color: $pink100 !important;
+
+    th.check-column { 
+        border-left-color: $pink500 !important;
+    }
+}
