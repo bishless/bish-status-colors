@@ -11,6 +11,7 @@
  * Version:           1.0.0
  * Author:            Daniel Bishop
  * Author URI:        https://bishless.com
+ * GitHub Plugin URI: bishless/bish-status-colors
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Tags: administration, posts, color, status, micro
@@ -20,14 +21,6 @@
 // If this file is called directly, abort.
 if ( ! defined( 'WPINC' ) ) {
     die;
-}
-
-// We're going to parse the GitHub markdown release notes, include Parsedown
-require_once( plugin_dir_path( __FILE__ ) . "vendor/autoload.php" );
-
-require_once( 'class-bfi-ghpluginupdater.php' );
-if ( is_admin() ) {
-    new BFIGitHubPluginUpdater( __FILE__, 'bishless', "bish-status-colors" );
 }
 
 /**

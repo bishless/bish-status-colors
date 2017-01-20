@@ -12,6 +12,10 @@ This is a micro plugin for WordPress that decorates Posts, Pages, and some Custo
 - **Private** (Red)
 - Published posts are not altered
 
+## Updating
+
+You'll need to use Andy Fragen's [GitHub Updater](https://github.com/afragen/github-updater).
+
 ## Changes
 
 If you'd like to alter the colors that are used, feel free to [fork a version of your own](https://github.com/bishless/bish-status-colors) and make it look the way you'd like.
